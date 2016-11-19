@@ -19,6 +19,11 @@
 		D42FD5BA1D9CFD040069FBD6 /* StudentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42FD5B91D9CFD040069FBD6 /* StudentsTableViewController.swift */; };
 		D42FD5BC1D9D24B70069FBD6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42FD5BB1D9D24B70069FBD6 /* DetailViewController.swift */; };
 		D47BDBA61D9ECD730084008F /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BDBA51D9ECD730084008F /* FilterViewController.swift */; };
+		D4DEEA9A1DDF96AF0000343B /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DEEA991DDF96AE0000343B /* LoginController.swift */; };
+		D4DEEA9C1DDFA14E0000343B /* TourCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DEEA9B1DDFA14E0000343B /* TourCell.swift */; };
+		D4DEEA9E1DDFA1800000343B /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DEEA9D1DDFA1800000343B /* BaseCell.swift */; };
+		D4DEEAA01DDFA7DE0000343B /* Tour.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DEEA9F1DDFA7DE0000343B /* Tour.swift */; };
+		D4DEEAA21DDFB9D30000343B /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DEEAA11DDFB9D30000343B /* LoginCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		D42FD5B91D9CFD040069FBD6 /* StudentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsTableViewController.swift; sourceTree = "<group>"; };
 		D42FD5BB1D9D24B70069FBD6 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D47BDBA51D9ECD730084008F /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		D4DEEA991DDF96AE0000343B /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		D4DEEA9B1DDFA14E0000343B /* TourCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourCell.swift; sourceTree = "<group>"; };
+		D4DEEA9D1DDFA1800000343B /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		D4DEEA9F1DDFA7DE0000343B /* Tour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tour.swift; sourceTree = "<group>"; };
+		D4DEEAA11DDFB9D30000343B /* LoginCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +95,7 @@
 				D40C352E1D9CDE9800808D67 /* Data.swift */,
 				D40C35311D9CEA2200808D67 /* Biography.swift */,
 				D40C35331D9CEB0C00808D67 /* Student.swift */,
+				D4DEEA9F1DDFA7DE0000343B /* Tour.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -93,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				D40C352C1D9CDDAB00808D67 /* LogInViewController.swift */,
+				D4DEEA991DDF96AE0000343B /* LoginController.swift */,
 				D42FD5B91D9CFD040069FBD6 /* StudentsTableViewController.swift */,
 				D42FD5BB1D9D24B70069FBD6 /* DetailViewController.swift */,
 				D47BDBA51D9ECD730084008F /* FilterViewController.swift */,
@@ -113,6 +125,9 @@
 			isa = PBXGroup;
 			children = (
 				D42FD5B71D9CF92C0069FBD6 /* StudentTableViewCell.swift */,
+				D4DEEA9B1DDFA14E0000343B /* TourCell.swift */,
+				D4DEEA9D1DDFA1800000343B /* BaseCell.swift */,
+				D4DEEAA11DDFB9D30000343B /* LoginCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -144,7 +159,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Jason Wang";
 				TargetAttributes = {
 					D40C35161D9CD6D900808D67 = {
@@ -191,14 +206,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D40C351B1D9CD6DA00808D67 /* AppDelegate.swift in Sources */,
+				D4DEEAA21DDFB9D30000343B /* LoginCell.swift in Sources */,
 				D40C352F1D9CDE9800808D67 /* Data.swift in Sources */,
 				D40C35321D9CEA2200808D67 /* Biography.swift in Sources */,
 				D47BDBA61D9ECD730084008F /* FilterViewController.swift in Sources */,
+				D4DEEA9E1DDFA1800000343B /* BaseCell.swift in Sources */,
+				D4DEEA9C1DDFA14E0000343B /* TourCell.swift in Sources */,
 				D40C35341D9CEB0C00808D67 /* Student.swift in Sources */,
 				D40C352D1D9CDDAB00808D67 /* LogInViewController.swift in Sources */,
 				D42FD5BA1D9CFD040069FBD6 /* StudentsTableViewController.swift in Sources */,
 				D42FD5B81D9CF92C0069FBD6 /* StudentTableViewCell.swift in Sources */,
 				D42FD5BC1D9D24B70069FBD6 /* DetailViewController.swift in Sources */,
+				D4DEEAA01DDFA7DE0000343B /* Tour.swift in Sources */,
+				D4DEEA9A1DDF96AF0000343B /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +262,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -292,6 +313,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
