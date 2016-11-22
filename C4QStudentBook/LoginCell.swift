@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LoginCell: BaseCell {
+class LoginCell: BaseCell, UITextFieldDelegate {
 
     static let identifier = "loginCellID"
 
